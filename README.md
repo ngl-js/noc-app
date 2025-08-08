@@ -4,13 +4,18 @@ A Node project with typescript
 
 # Dev
 
-Setup env vars
+1. Setup env vars .env.template
+2. Run `npm install`
+3. Run
 
 ```
-PORT=3000
-
-MAILER_EMAIL=
-MAILER_SECRET_KEY=
-
-PROD=false
+docker-compose up -d
 ```
+
+4. Run
+
+```
+npx prisma migrate dev
+```
+
+5. Run `npm run dev`

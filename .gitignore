@@ -4,5 +4,8 @@ dist/
 logs/
 *.log
 /mongo/
+/postgres/
 
 .env
+
+/src/generated/prisma
